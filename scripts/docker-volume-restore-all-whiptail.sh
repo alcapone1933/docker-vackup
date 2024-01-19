@@ -605,7 +605,7 @@ function RESTORE_BACKUP_MENU() {
         clear
         return 0
     fi
-    LIST_TAR_GZ=$(ls -ar *.tgz)
+    LIST_TAR_GZ=$(ls -a *.tgz)
     ii=1
     LIST_DOCKER_VOLUMES=$(
     for volume_ls in $LIST_TAR_GZ; do
